@@ -4,7 +4,6 @@
     class="hide-overflow"
   >
     <v-layout
-      align-center
       info
       white--text
     >
@@ -14,8 +13,7 @@
       >
         <v-img
           :src="require('@/assets/contact.png')"
-          height="100vh"
-          gradient="to bottom, #fff, transparent"
+          height="100%"
         />
       </v-flex>
       <v-flex
@@ -23,9 +21,7 @@
         md6
         pa-5
       >
-        <base-bubble-1
-          style="transform: translate(5%, -50%)"
-        />
+        <base-bubble-1 />
         <base-heading class="mb-5">
           Get In Touch
         </base-heading>

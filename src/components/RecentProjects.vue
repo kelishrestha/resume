@@ -54,8 +54,7 @@
       >
         <v-img
           :src="require('@/assets/recentprojects.png')"
-          gradient="to top, #D8EBF1, transparent"
-          height="100vh"
+          height="100%"
         />
       </v-flex>
     </v-layout>

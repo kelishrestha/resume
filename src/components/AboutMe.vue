@@ -64,8 +64,7 @@
       >
         <v-img
           :src="require('@/assets/aboutme.png')"
-          gradient="to bottom, transparent, #5B5C79"
-          height="100vh"
+          height="100%"
         />
       </v-flex>
     </v-layout>

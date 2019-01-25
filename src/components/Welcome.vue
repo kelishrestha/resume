@@ -10,7 +10,6 @@
       >
         <v-img
           :src="require('@/assets/welcome.png')"
-          gradient="to top, #D3C3BC, transparent"
           height="100vh"
         />
       </v-flex>
@@ -20,6 +19,7 @@
         md6
         align-content-space-between
         layout
+        :pa-5="$vuetify.breakpoint.smAndDown"
         wrap
       >
         <base-bubble-1
@@ -39,9 +39,15 @@
               Lorem ipsum dolor sit amet, consectetur ad
               ipiscin elit. Etiam vulputate augue vel felis gra
               vida porta. Lorem ipsum dolor sit amet, cons
+              ectetur adipiscing elit.<br>
+              Lorem ipsum dolor sit amet, consectetur ad
+              ipiscin elit. Etiam vulputate augue vel felis gra
+              vida porta. Lorem ipsum dolor sit amet, cons
               ectetur adipiscing elit.
             </base-text>
-            <base-btn>Learn More!</base-btn>
+            <base-btn class="mt-4">
+              Learn More!
+            </base-btn>
           </v-flex>
         </v-layout>
 

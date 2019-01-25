@@ -10,8 +10,7 @@
       >
         <v-img
           :src="require('@/assets/services.png')"
-          gradient="to bottom, transparent, #fff"
-          height="100vh"
+          height="100%"
         />
       </v-flex>
       <v-flex
