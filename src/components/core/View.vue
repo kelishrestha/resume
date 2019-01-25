@@ -1,13 +1,11 @@
 <template>
-  <v-content>
-    <v-container fluid>
-      <welcome />
-      <recent-projects />
-      <services />
-      <about-me />
-      <get-in-touch />
-    </v-container>
-  </v-content>
+  <div>
+    <welcome />
+    <recent-projects />
+    <services />
+    <about-me />
+    <get-in-touch />
+  </div>
 </template>
 
 <script>
