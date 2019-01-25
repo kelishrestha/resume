@@ -1,4 +1,4 @@
-# portfolio
+# Freelancer Theme for Vuetify
 
 ## Project setup
 ```
