@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "freelancer",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "roboto-fontface": "*",
     "vue": "^2.5.21",
+    "vuetify": "^2.0.0-alpha.2",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
@@ -21,6 +23,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
+    "vue-cli-plugin-vuetify": "^0.4.6",
     "vue-template-compiler": "^2.5.21"
   },
   "eslintConfig": {
@@ -29,7 +32,7 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
+      "plugin:vue/recommended",
       "@vue/standard"
     ],
     "rules": {},
