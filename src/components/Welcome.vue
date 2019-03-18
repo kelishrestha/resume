@@ -32,9 +32,9 @@
         >
           <v-flex
             xs10
-            md6
+            md8
           >
-            <base-heading>Welcome!</base-heading>
+            <base-heading>Kelina Shrestha</base-heading>
             <base-text>
               Lorem ipsum dolor sit amet, consectetur ad
               ipiscin elit. Etiam vulputate augue vel felis gra
