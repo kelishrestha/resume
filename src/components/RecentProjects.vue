@@ -6,14 +6,14 @@
     <v-layout>
       <v-flex
         xs12
-        md6
-        primary
+        md12
+        deep-orange darken-4
         text-xs-center
         pa-5
         white--text
       >
         <base-bubble-1
-          style="transform: rotate(180deg) translateX(25%)"
+          style="transform: rotate(180deg) translateX(5%)"
         />
         <base-heading>
           Recent Projects
@@ -47,15 +47,6 @@
             </v-layout>
           </v-container>
         </v-card>
-      </v-flex>
-      <v-flex
-        hidden-sm-and-down
-        md6
-      >
-        <v-img
-          :src="require('@/assets/recentprojects.png')"
-          height="100%"
-        />
       </v-flex>
     </v-layout>
   </section>
