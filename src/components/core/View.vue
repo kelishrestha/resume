@@ -1,7 +1,12 @@
 <template>
   <div>
-    <welcome />
     <recent-projects />
+    <welcome
+      name="Kelina Shrestha"
+      title="Ruby on Rails Engineer"
+      intro="Self-motivated, dedicated and organized software engineer pursuing professional experience in technology with an aim to solve problems with technology. Collaborative team player uplifting performance of applications and team to achieve targeted goals accepting challenges."
+    />
+    <!-- <recent-projects /> -->
     <services />
     <about-me />
     <get-in-touch />

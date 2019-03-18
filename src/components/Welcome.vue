@@ -1,15 +1,12 @@
 <template>
-  <section
-    id="welcome"
-    class="hide-overflow"
-  >
+  <section id="welcome" class="hide-overflow">
     <v-layout>
       <v-flex
         hidden-sm-and-down
         md6
       >
         <v-img
-          :src="require('@/assets/welcome.png')"
+          :src="require('@/assets/profile.jpg')"
           height="100vh"
         />
       </v-flex>
@@ -34,27 +31,24 @@
             xs10
             md8
           >
-            <base-heading>Kelina Shrestha</base-heading>
-            <base-text>
-              Lorem ipsum dolor sit amet, consectetur ad
-              ipiscin elit. Etiam vulputate augue vel felis gra
-              vida porta. Lorem ipsum dolor sit amet, cons
-              ectetur adipiscing elit.<br>
-              Lorem ipsum dolor sit amet, consectetur ad
-              ipiscin elit. Etiam vulputate augue vel felis gra
-              vida porta. Lorem ipsum dolor sit amet, cons
-              ectetur adipiscing elit.
+            <base-heading>{{ name }}</base-heading>
+            <base-subheading>{{ title }}</base-subheading>
+            <base-text class="pb-5 mb-5">
+              {{ intro }}
             </base-text>
-            <base-btn class="mt-4">
-              Learn More!
-            </base-btn>
           </v-flex>
         </v-layout>
-
-        <base-bubble-2
-          style="transform: rotate(180deg) translate(-200px, -15%)"
-        />
       </v-flex>
     </v-layout>
   </section>
 </template>
+
+<script>
+export default {
+  props: {
+    name: String,
+    title: String,
+    intro: String
+  }
+}
+</script>
