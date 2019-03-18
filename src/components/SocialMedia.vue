@@ -6,10 +6,12 @@
       fab
       class="ma-2"
       :large="large"
-      color="info"
+      color="deep-orange darken-4"
+      :href="item.href"
+      target="blank"
     >
       <v-icon
-        dark
+        color="white"
         v-text="item.icon"
       />
     </v-btn>
@@ -29,19 +31,22 @@ export default {
     items: [
       {
         name: 'Twitter',
-        icon: 'mdi-twitter'
+        icon: 'mdi-twitter',
+        href: 'https://twitter.com/kelishrestha'
       },
       {
         name: 'Instagram',
-        icon: 'mdi-instagram'
+        icon: 'mdi-instagram',
+        href: 'https://www.instagram.com/kelishrestha/'
       },
       {
         name: 'Facebook',
-        icon: 'mdi-facebook'
+        icon: 'mdi-facebook',
+        href: 'https://facebook.com/keli.shrestha'
       },
       {
         name: 'Email',
-        icon: 'mdi-email'
+        icon: 'mdi-email',
       },
       {
         name: 'Phone',
