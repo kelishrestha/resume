@@ -1,13 +1,9 @@
 <template>
   <div>
-    <welcome
-      name="Kelina Shrestha"
-      title="Ruby on Rails Engineer"
-      intro="Self-motivated, dedicated and organized software engineer pursuing professional experience in technology with an aim to solve problems with technology. Collaborative team player uplifting performance of applications and team to achieve targeted goals accepting challenges."
-    />
+    <welcome/>
     <!-- <recent-projects /> -->
     <experience-timeline />
-    <services />
+    <skills />
     <about-me />
     <get-in-touch />
   </div>
@@ -20,7 +16,7 @@ export default {
     GetInTouch: () => import('@/components/GetInTouch'),
     ExperienceTimeline: () => import('@/components/ExperienceTimeline'),
     RecentProjects: () => import('@/components/RecentProjects'),
-    Services: () => import('@/components/Services'),
+    Skills: () => import('@/components/Skills'),
     Welcome: () => import('@/components/Welcome')
   }
 }
