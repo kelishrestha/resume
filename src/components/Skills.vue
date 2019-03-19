@@ -19,11 +19,6 @@
         >
           Skills
         </h1>
-        <h3
-          class="subheading"
-        >
-          {{ title }}
-        </h3>
         <v-container
           fluid
           grid-list-sm
