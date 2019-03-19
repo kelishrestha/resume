@@ -1,8 +1,8 @@
 <template>
   <v-container grid-list-xl mt-4>
-    <h4 class="mb-5 display-1 text-xs-center font-weight-bold text-uppercase">
+    <h1 class="mb-5 display-2 text-xs-center font-weight-bold text-uppercase teal--text">
       Experience
-    </h4>
+    </h1>
     <v-timeline>
       <v-timeline-item
         v-for="(experience, i) in experiences"
